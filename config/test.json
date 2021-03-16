@@ -1,0 +1,35 @@
+{
+  "APP_NAME": "Defi-France Ledger",
+  "INSTANCE_NAME": "main-server",
+  "NODE_ENV": "test",
+  "HTTP": {
+    "SSL": false,
+    "PORT": 3000,
+    "CERT": "",
+    "PRIVKEY": ""
+  },
+  "DAL": {
+    "MONGODB": {
+      "IN_MEMORY": true,
+      "CONNECTION_STRING": "",
+      "DATABASE": "defi"
+    }
+  },
+  "SERVICE": {
+    "PROVISIONING": {
+      "ENABLE": true
+    },
+    "WINSTON": {
+      "LOG_DIR": "",
+      "LOG_LEVEL": "info",
+      "LOG_LOGSTASH": {
+        "NAME": "",
+        "VERSION": "",
+        "HOST": "",
+        "PORT": "",
+        "SSL": false
+      },
+      "PRINT_REQUEST": false
+    }
+  }
+}
